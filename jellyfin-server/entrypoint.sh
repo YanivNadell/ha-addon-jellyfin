@@ -9,4 +9,4 @@ if ! grep -q "<WebRootPath>" "$CONFIG_PATH"; then
 fi
 
 # Launch Jellyfin
-exec ./jellyfin/jellyfin
+exec ./jellyfin/jellyfin --webdir=/share/jellyfin/custom-web
