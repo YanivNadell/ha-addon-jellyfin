@@ -1,6 +1,6 @@
 name: Jellyfin Server Improved (Host Network)
 version: 1.4.6
-slug: jellyfinserverimprovedhost
+slug: jellyfinserverimproved
 description: Improved Jellyfin Server add-on, running on host network
 url: https://github.com/yanivnadell/ha-addon-jellyfin
 webui: http://[HOST]:[PORT:8096]
