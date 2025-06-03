@@ -1,6 +1,6 @@
 name: Jellyfin Server Improved
 version: 1.4.6
-slug: jellyfinserverimproved
+slug: jellyfinserver
 description: Improved Jellyfin Server add-on
 url: https://github.com/yanivnadell/ha-addon-jellyfin
 webui: http://[HOST]:[PORT:8096]
