@@ -1,8 +1,8 @@
-name: Jellyfin Server (Host Network)
+name: Jellyfin Server Improved (Host Network)
 version: 1.4.6
-slug: jellyfinserverhn
-description: Jellyfin Server add-on, running on host network
-url: https://github.com/mdvorak/ha-addon-jellyfin
+slug: jellyfinserverimproved
+description: Improved Jellyfin Server add-on, running on host network
+url: https://github.com/YanivNadell/ha-addon-jellyfin
 webui: http://[HOST]:[PORT:8096]
 arch:
   - aarch64
@@ -22,4 +22,4 @@ ports_description:
   8096/tcp: Jellyfin web and media port
   8920/tcp: Jellyfin TLS port, must be configured in the server first
 host_network: true
-image: ghcr.io/mdvorak/jellyfin-server-{arch}
+image: ghcr.io/yanivnadell/jellyfin-server-{arch}
