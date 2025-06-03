@@ -7,6 +7,7 @@ ENV JELLYFIN_CONFIG_DIR=/share/jellyfin/config
 ENV JELLYFIN_CACHE_DIR=/share/jellyfin/cache
 ENV JELLYFIN_LOG_DIR=/share/jellyfin/log
 
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+# COPY entrypoint.sh /entrypoint.sh
+# RUN chmod +x /entrypoint.sh
+# ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["./jellyfin/jellyfin"]
